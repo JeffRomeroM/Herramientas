@@ -1,0 +1,290 @@
+section{
+    margin: auto;
+    width: 90%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/*estilo de cambio a recibir*/
+
+.operaciones{
+    background-color: rgb(182, 172, 159);
+    width: 90%;
+    height:350px;
+    margin: auto;
+    border-radius: 8px;
+}
+.h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 40%;
+}
+.input{
+    width: 90%;
+    height: 7vh;
+    border: 3px solid rgb(114, 93, 93);
+    margin-top: 1vh;
+    margin-left: 3%;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+.input:focus{
+    width: 90%;
+    height: 9vh;
+    border: 3px solid rgb(106, 106, 106);
+    margin-top: 1vh;
+    margin-left: 3%;
+    
+    margin-bottom: 20px;
+
+}
+.opciones{
+    width: 90%;
+    height: 7vh;
+    margin-top: 1vh;
+    margin-left: 9vh;
+
+}
+
+.btn-vuelto{
+    width: 20%;
+    height: 5vh;
+    margin-left: 40%;
+    border: 3px solid rgb(250, 250, 250);
+    background-color:rgb(106, 106, 106);
+    display: inline;
+    border-radius: 8px;
+    color: white;
+
+}
+.btn-vuelto:active{
+    width: 20%;
+    height: 6vh;
+    margin-left: 40%;
+    border: 3px solid   rgb(106, 106, 106);
+    background-color: rgb(250, 250, 250) ;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.p{
+    background-color: rgb(233, 233, 233);
+    width: 15%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-size: larger;
+    padding-top: 7px;
+}
+
+/*estilo de desglose */
+
+form{
+    background-color: rgb(182, 172, 159);
+    width: 90%;
+    height: 60%;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10px;
+}
+.insertar-input{
+    background-color: rgb(163, 157, 149);
+    border-radius: 8px;
+    padding-bottom: 4%;
+    
+    width: 98%;
+    height: 40%;
+    margin:1% 1%;
+
+}
+.insertar{
+    background-color: rgb(163, 157, 149);
+    border-radius: 8px;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size:large;
+    font-weight: 900;
+    width: 98%;
+    height: 40%;
+    margin:1% 1%;
+    color: white;
+
+}
+.cantidad{
+    align-items: center;
+    width: 50%;
+    height: 5vh;
+    margin-left: 2%;
+    border-radius: 5px;
+    border: 3px solid rgb(114, 93, 93);
+    font-size: large;
+    text-align: center;
+}
+.cantidad:focus{
+    align-items: center;
+    width: 50%;
+    height: 6vh;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+.btn-desglose{
+    width: 17%;
+    height: 5vh;
+    margin-left: 4%;
+    border: 3px solid rgb(250, 250, 250);
+    background-color:rgb(106, 106, 106);
+    display: inline;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+
+}
+
+.btn-desglose:active{
+    width: 17%;
+    height: 6vh;
+    margin-left: 4%;
+    border: 3px solid  rgb(106, 106, 106);
+    background-color:rgb(250, 250, 250);
+    display: inline;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 500px){
+    /*estilo de cambio a recibir*/
+    .input{
+        width: 90%;
+        height: 7vh;
+        border: 3px solid rgb(114, 93, 93);
+        margin-top: -.5%;
+        margin-left: 3%;
+        font-size: large;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    
+    }
+    .h1{
+        text-align: center;
+    }
+    .input:focus{
+        width: 90%;
+        height: 9vh;
+        border: 3px solid rgb(106, 106, 106);
+        margin-top: 1vh;
+        margin-left: 3%;
+        
+        margin-bottom: 20px;
+    
+    }
+
+    .opciones{
+        width: 90%;
+        height: 7vh;
+        margin-top: 1vh;
+        margin-left: 1vh;
+    
+    }
+    .btn-vuelto{
+        width: 40%;
+        height: 5vh;
+        margin-left: 30%;
+        border: 3px solid rgb(250, 250, 250);
+        background-color:rgb(106, 106, 106);
+        border-radius: 8px;
+    
+    }
+    .btn-vuelto:active{
+        width: 40%;
+        height: 6vh;
+        margin-left: 30%;
+        border: 3px solid   rgb(106, 106, 106);
+        background-color: rgb(250, 250, 250) ;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        
+    
+    }
+    
+    .p{
+        background-color: rgb(233, 233, 233);
+        width: 30%;
+        height: 40px;
+        margin: auto;
+        margin-top: 8px;
+        border-radius: 8px;
+        color: black;
+        text-align: center;
+        font-weight: 800;
+        font-size: larger;
+        padding-top: 5px;
+    }
+
+    /*estilo de desglose */
+    .insertar-input{
+        background-color: rgb(163, 157, 149);
+        border-radius: 8px;
+        padding-bottom: 4%;
+        
+        width: 98%;
+        height: 40%;
+        margin:1% 1%;
+    
+    }
+    .cantidad{
+        align-items: center;
+        width: 40%;
+        height: 4vh;
+        margin-left: 1%;
+        border-radius: 5px;
+        border: 3px solid rgb(114, 93, 93);
+        font-size: large;
+        text-align: center;
+    }
+
+    .cantidad:focus{
+        align-items: center;
+        width: 40%;
+        height: 5vh;
+        margin-left: 2%;
+        border-radius: 5px;
+    }
+    
+    .btn-desglose{
+        width: 25%;
+        height: 4vh;
+        margin-left: 1%;
+        border: 3px solid rgb(250, 250, 250);
+        background-color:rgb(106, 106, 106);
+        display: inline;
+        border-radius: 8px;
+        color: white;
+        text-align: center;
+    
+    }
+    .btn-desglose:active{
+        width: 25%;
+        height: 5vh;
+        margin-left: 1%;
+        border: 3px solid  rgb(106, 106, 106);
+        background-color:rgb(250, 250, 250);
+        display: inline;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    
+    }
+}

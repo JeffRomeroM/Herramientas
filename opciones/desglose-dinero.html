@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jeff-Tolls </title>
+    <link rel="stylesheet" href="../css/style-index.css">
+    <link rel="stylesheet" href="../css/style-cambio.css">
+    <link rel="shortcut icon" href="../img/tool.png" type="image/x-icon">
+</head>
+<body>
+
+    
+    <header class="header">
+     
+        <div class="bars__menu " id="icono-menu">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+        </div>
+        
+        <a href="../index.html"><img src="../img/tool.png" alt="" class="logo-x"></a>
+        
+       
+        
+        <div class="cont-menu active" id="menu">
+            <ul>
+                <li> <a href="../index.html"> Inicio </a> </li>
+                <li> <a href="../opciones/operaciones.html"> Operaciones</a> </li>
+                <li> <a href="../opciones/cambio-desglose.html"> Cambio </a> </li>
+                <li> <a href="../opciones/desglose-dinero.html"> Desglose de dinero </a> </li>
+                <li> <a href="../opciones/contactos.html"> Contactos </a> </li>
+            </ul>
+        </div>
+        
+        
+    </header>
+    <section>
+       
+    
+        <form action="" class="form">
+            <div class="insertar-input">
+                <h1 class="title-desglose">Desglosar Córdobas </h1>
+                <input id="cantidad" class="cantidad" type="text" placeholder="Ingrese la cantidad">
+                <input type="button" onclick="desglosar_cordobas()" value="Desglosar" class="btn-desglose">
+                <input type="reset" name="" id="" class="btn-desglose">
+            </div>
+            
+            <div class="insertar">
+                <h5>Billetes de 1000:</h5>
+                <p id="billetes1000" class="p"></p>
+    
+            </div>
+            <div class="insertar">
+                <h5>Billetes de 500:</h5>
+                <p id="billetes500" class="p"></p>
+            </div>
+            <div class="insertar">
+                <h5>Billetes de 200:</h5>
+                <p id="billetes200" class="p"></p>
+            </div>
+            <div class="insertar">
+                <h5>Billetes de 100:</h5>
+                <p id="billetes100" class="p"></p>
+            </div>
+            <div class="insertar">
+                <h5>Billetes de 50:</h5>
+                <p id="billetes50" class="p"></p>
+            </div>
+            <div class="insertar">
+                <h5>Billetes de 20:</h5>
+                <p id="billetes20" class="p"></p>
+            </div>
+            <div class="insertar">
+                <h5>Billetes de 10:</h5>
+                <p id="billetes10" class="p"></p>
+            </div>
+            <div class="insertar">
+                <h5>Monedas de 5:</h5>
+                <p id="monedas5" class="p"></p>
+            </div>
+            <div class="insertar">
+                <h5>Monedas de 1:</h5>
+                <p id="monedas1" class="p"></p>
+            </div>
+            
+            
+    
+    
+    
+    
+    
+    
+    
+        </form>
+    </section>
+    <footer class="footer" id="contactos">
+        <p>Jeff RM &copy; Todos Los Derechos Reservados 2022</p>
+        <div class="iconos">
+          <a href="https://www.facebook.com/profile.php?id=1000834103644047" class="fcb">Facebook</a>
+          <a href="" class="gh">Github</a>
+          <a href="https://wa.me/77146128/" class="wh">Whatsapp</a>
+        </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+    <script src="../js/desglose-cordobas.js"></script>
+</body>
+</html>
